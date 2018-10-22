@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button bAddItinerary = findViewById(R.id.b_add_itinerary);
+        /*Button bAddItinerary = findViewById(R.id.b_add_itinerary);
         bAddItinerary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -83,6 +83,17 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ItinerarySearchActivity.class);
                 startActivity(intent);
             }
+        });*/
+
+        Button bGotolist = findViewById(R.id.b_go_to_list);
+        bGotolist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ItineraryListActivity.class);
+                startActivity(intent);
+            }
         });
+
     }
 }
+
