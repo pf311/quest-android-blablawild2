@@ -21,6 +21,9 @@ public class ItineraryModel {
         this.date = date;
         this.price = price;
     }
+    public ItineraryModel(){}
+
+
 
     public String getDeparture() {
         return departure;

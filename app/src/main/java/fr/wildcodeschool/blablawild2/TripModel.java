@@ -18,6 +18,8 @@ public class TripModel implements Parcelable {
         this.destination = destination;
         this.date = date;
     }
+    public TripModel(){}
+
 
     public String getDeparture() {
         return departure;
